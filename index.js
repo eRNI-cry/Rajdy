@@ -73,7 +73,7 @@ client.on("messageReactionAdd", (e, n) => {
               dobo = message.content
               var cz = new Date();
               var statek = 5-cz.getMinutes()%5
-              e.message.channel.send(`🚨Woda na glacy! @Cult Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
+              e.message.channel.send(`🚨Woda na glacy! @everyone Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
               .then(() => tiou = e.message.channel.lastMessage)
               setTimeout(() => {tiou.delete();}, (dobo+30)*60000)
               zbierak.stop()
@@ -91,7 +91,7 @@ client.on("messageReactionAdd", (e, n) => {
               dobo = message.content
               var cz = new Date();
               var statek = 5-cz.getMinutes()%5
-              e.message.channel.send(`🚨Mrok na glacy! @Cult Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
+              e.message.channel.send(`🚨Mrok na glacy! @everyone Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
               .then(() => tiou = e.message.channel.lastMessage)
               setTimeout(() => {tiou.delete();}, (dobo+30)*60000)
               zbierak.stop()
@@ -109,7 +109,7 @@ client.on("messageReactionAdd", (e, n) => {
               dobo = message.content
               var cz = new Date();
               var statek = 5-cz.getMinutes()%5
-              e.message.channel.send(`🚨Światło na glacy! @Cult Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
+              e.message.channel.send(`🚨Światło na glacy! @everyone Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
               .then(() => tiou = e.message.channel.lastMessage)
               setTimeout(() => {tiou.delete();}, (dobo+30)*60000)
               zbierak.stop()
