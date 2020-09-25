@@ -1,0 +1,15 @@
+{
+  "name": "ostatni",
+  "version": "1.0.0",
+  "description": "proba",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
