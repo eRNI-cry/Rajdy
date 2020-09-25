@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 let rekcje = false
 const client = new Discord.Client();
 let tet, ogien, woda, mrok, swiatlo, tiou, dobo, kanal, mesedz
-client.login('NzU4MDQ2MTAyNTYwNzAyNTU2.X2pPcg.kxc5c7DbVkAGnKTtnJnbfOm9jtk')
+client.login(process.env.BOT_TOKEN)
 client.once('ready', () => {
   console.log('Ruszamy!');
   tet = client.guilds.cache.find(guild => guild.id ==='432131267325329419')
