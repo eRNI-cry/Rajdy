@@ -5,7 +5,7 @@ let tet, ogien, woda, mrok, swiatlo, tiou, dobo, kanal, mesedz
 client.login(process.env.BOT_TOKEN)
 client.once('ready', () => {
   console.log('Ruszamy!');
-  tet = client.guilds.cache.find(guild => guild.id ==='432131267325329419')
+  tet = client.guilds.cache.find(guild => guild.id ==='758045594177765376')
   ogien = tet.emojis.cache.find(emoji => emoji.name === 'ogien');
   woda = tet.emojis.cache.find(emoji => emoji.name === 'woda');
   mrok = tet.emojis.cache.find(emoji => emoji.name === 'mrok');
