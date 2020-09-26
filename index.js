@@ -55,13 +55,13 @@ client.on("messageReactionAdd", (e, n) => {
               var cz = new Date();
               var statek = 5-cz.getMinutes()%5
               e.message.channel.send(`🚨Ogień na glacy! @everyone Pełna mobilizacja! Boss za ${dobo}min! Statek za ${statek}min🚨!`)
-              .then(() => tiou = e.message.channel.lastMessage)
-              setTimeout(() => {tiou.delete();}, (dobo+30)*60000)
+              .then(() => tiou = e.message.channel.lastMessage)  
               zbierak.stop()
               e.remove()
               e.message.react(ogien)
               r.delete()
               message.delete()
+              setTimeout(() => tiou.delete(), (dobo+30)*60000)
               })
             }
 
@@ -75,12 +75,12 @@ client.on("messageReactionAdd", (e, n) => {
               var statek = 5-cz.getMinutes()%5
               e.message.channel.send(`🚨Woda na glacy! @everyone Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
               .then(() => tiou = e.message.channel.lastMessage)
-              setTimeout(() => {tiou.delete();}, (dobo+30)*60000)
               zbierak.stop()
               e.remove()
               e.message.react(woda)
               r.delete()
               message.delete()
+              setTimeout(() => tiou.delete(), (dobo+30)*60000)
               })
             }
       else if (e.emoji.name == 'mrok') {
@@ -93,12 +93,12 @@ client.on("messageReactionAdd", (e, n) => {
               var statek = 5-cz.getMinutes()%5
               e.message.channel.send(`🚨Mrok na glacy! @everyone Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
               .then(() => tiou = e.message.channel.lastMessage)
-              setTimeout(() => {tiou.delete();}, (dobo+30)*60000)
               zbierak.stop()
               e.remove()
               e.message.react(mrok)
               r.delete()
               message.delete()
+              setTimeout(() => tiou.delete(), (dobo+30)*60000)
               })
             }
       else if (e.emoji.name == 'swiatlo') {
@@ -111,12 +111,12 @@ client.on("messageReactionAdd", (e, n) => {
               var statek = 5-cz.getMinutes()%5
               e.message.channel.send(`🚨Światło na glacy! @everyone Pełna mobilizacja! Boss za ${message.content}min! Statek za ${statek}min!🚨`)
               .then(() => tiou = e.message.channel.lastMessage)
-              setTimeout(() => {tiou.delete();}, (dobo+30)*60000)
               zbierak.stop()
               e.remove()
               e.message.react(swiatlo)
               r.delete()
               message.delete()
+              setTimeout(() => tiou.delete(), (dobo+30)*60000)             
               })
             }
 });
