@@ -61,7 +61,7 @@ client.on("messageReactionAdd", (e, n) => {
               e.message.react(ogien)
               r.delete()
               message.delete()
-              setTimeout(() => tiou.delete(), (int(dobo)+30)*60000)
+              setTimeout(() => tiou.delete(), (dobo+30)*60000)
               })
             }
 
