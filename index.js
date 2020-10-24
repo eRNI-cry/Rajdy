@@ -61,7 +61,7 @@ client.on("messageReactionAdd", (e, n) => {
               e.message.react(ogien)
               r.delete()
               message.delete()
-              setTimeout(() => tiou.delete(), (30*60000)
+              setTimeout(() => tiou.delete(), 30*60000)
               })
             }
 
@@ -80,7 +80,7 @@ client.on("messageReactionAdd", (e, n) => {
               e.message.react(woda)
               r.delete()
               message.delete()
-              setTimeout(() => tiou.delete(), (30*60000)
+              setTimeout(() => tiou.delete(), 30*60000)
               })
             }
       else if (e.emoji.name == 'mrok') {
@@ -98,7 +98,7 @@ client.on("messageReactionAdd", (e, n) => {
               e.message.react(mrok)
               r.delete()
               message.delete()
-              setTimeout(() => tiou.delete(), (30*60000)
+              setTimeout(() => tiou.delete(), 30*60000)
               })
             }
       else if (e.emoji.name == 'swiatlo') {
@@ -116,7 +116,7 @@ client.on("messageReactionAdd", (e, n) => {
               e.message.react(swiatlo)
               r.delete()
               message.delete()
-              setTimeout(() => tiou.delete(), (30*60000)             
+              setTimeout(() => tiou.delete(), 30*60000)             
               })
             }
 });
